@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.conteiner{
+    background: #730337;
+}
+.encabezado{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.contenido{
+    text-align: center;
+}
+.pregunta{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+.no{
+    color: aquamarine;
+}
+.boton{
+    text-align: center;
+    padding: 20px;
+}
+.boton img{
+    border-radius: 20px;
+    margin: 0 30px 20px 30px;
+    width: 100px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.boton img:hover{
+    width: 120px;
+    transform: translateY(10px);
+}
+.imagen img{
+    width: 100%;
+}
+.text{
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
